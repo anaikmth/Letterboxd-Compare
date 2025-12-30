@@ -30,7 +30,6 @@
       if (error) {
         return;
       }
-      // redirect to the compare location
       compare_button.classList.add("is-loading");
       window.location = "/" + user1_elem.value + "/vs/" + user2_elem.value;
     }
@@ -64,7 +63,8 @@
     <h1 class="title is-2" style="margin-bottom: 0px">
       Letterboxd Compare
     </h1>
-    <a href="https://github.com/vn-ki/letterboxd-compare" target="_blank">vn-ki/letterboxd-compare</a>
+    Original Project → <a href="https://github.com/vn-ki/letterboxd-compare" target="_blank">vn-ki/letterboxd-compare</a><br>
+    Mine → <a href="https://github.com/anaikmth/Letterboxd-Compare" target="_blank">anaikmth/Letterboxd-Compare</a>
   </div>
   <form id="input-form" onsubmit="redirect()">
   <h1 class="title is-4">
@@ -85,7 +85,6 @@
   </p>
   </form>
 
-  {# error #}
   {% if error_mess.is_some() %}
   <article class="message is-danger">
     <div class="message-header">
