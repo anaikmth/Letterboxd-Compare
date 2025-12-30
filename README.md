@@ -1,20 +1,14 @@
-# Letterboxd Compare (NOT MY PROJET JUST CORRECTIONS)
+# Letterboxd Compare
 
-Compare two letterboxd users to see the movies one has seen and the other hasn't.
+Compare two Letterboxd users to see the movies one has seen and the other hasn't.
+
 [Letterboxd](https://letterboxd.com) is a social movie discovery site where users rate the movies they watch.
 
-The initial fetch of data might take a couple of seconds, especially if the requested user has rated a lot of movies.
+---
 
-## Instructions
+## Disclaimer
 
-- Needs rust developement setup
+**This is NOT my original project.**  
+Original project by [Vishnunarayan K I](https://github.com/appukuttancr) - I only made corrections and improvements to get it working.
 
-```
-cargo run
-```
-
-For developement, you might want logs
-
-```
-RUST_LOG="info,letterboxd_compare=debug" cargo run
-```
+---
