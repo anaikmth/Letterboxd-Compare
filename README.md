@@ -6,7 +6,7 @@ Compare two Letterboxd users to see the movies one has seen and the other hasn't
 
 ---
 
-## Disclaimer
+# Disclaimer
 
 **This is NOT my original project.**  
 Original project by [Vishnunarayan K I](https://github.com/appukuttancr) - I only made corrections and improvements to get it working.
